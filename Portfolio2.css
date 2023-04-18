@@ -25,17 +25,12 @@ scroll-behavior: smoot;
 }
 .contenedor-header header{
     max-width: 1100px;
-    margin: auto;
+    font-size: 30px;
+    margin: 30px 380px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 15px 20px;
-}
-.contenedor-header header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #1cb698;
-    text-decoration: none;
 }
 .contenedor-header header ul{
     display: flex;
@@ -50,10 +45,10 @@ scroll-behavior: smoot;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1cb698;
+    color: rgb(80, 182, 131);
 }
 .nav-responsive{
-    background-color: #1cb698;
+    background-color:rgb(80, 182, 131);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -86,6 +81,7 @@ border-radius: 40px;
         border-radius: 100%;
 }
 .contenido-banner h1{
+    color: rgb(80, 182, 131);
     margin-top: 20px;
     font-size: 40px;
     font-family: 'Righteous';
@@ -111,7 +107,7 @@ border-radius: 40px;
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1cb698;
+    background-color: rgb(80, 182, 131);
 }
 .sobremi{
     background-color: #1e2326;
@@ -134,7 +130,7 @@ border-radius: 40px;
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1cb698;
+    color: rgb(80, 182, 131);
     font-weight: bold;
 }
 .sobremi .fila{
@@ -156,11 +152,11 @@ border-radius: 40px;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1cb698;
+    color: rgb(80, 182, 131);
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1cb698;
+    background-color: rgb(80, 182, 131);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -182,7 +178,7 @@ justify-content: center;
 transition: .3s;
 }
 .sobremi .fila .col .contenedor-intereses .intereses:hover{
-    background-color: #1cb698;
+    background-color: rgb(80, 182, 131);
 }
 .sobremi .fila .col .contenedor-intereses .intereses i{
     font-size: 30px;
@@ -207,7 +203,7 @@ transition: .3s;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1cb698;
+    background-color: rgb(80, 182, 131);
     z-index: .1;
     transition: 1s;
 }
